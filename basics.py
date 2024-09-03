@@ -1,4 +1,5 @@
 # Numeric type
+#its numerics
 # integer - with numbers
 a= 10
 print(type(a))
