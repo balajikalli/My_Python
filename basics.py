@@ -1,4 +1,5 @@
-# Numeric type
+#Lets start with the basics of Python 
+# # Numeric type
 #its numerics
 # integer - with numbers
 a= 10
@@ -16,11 +17,11 @@ print(type(c))
 
 
 # set types
-# set - unordered collection of unique items
+# set - unordered collection of unique items-no duplicates
 s= {1, 2, 3, 4, 5}
 print(type(s))
 
-# frozen set - represents immutable sets
+# frozen set - represents immutable sets- elements cannont be changed
 fs= frozenset([1,2,3,4,5])
 print(type(fs))
 
@@ -30,7 +31,7 @@ print(type(boolean))
 
 
 
-# Type Checking
+# Type Checking- the python type of function will return the type of that argument. we can use this to check whether our arg is int/str.
 # isinstance(obj, type) - it shows True or False
 x = 100
 print(isinstance(x, int))

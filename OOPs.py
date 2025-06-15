@@ -19,3 +19,17 @@ print(my_vehicle.name)
 print(my_vehicle.year)
 
 
+# Inheritance
+
+class Animal:
+    def __init__(self, name):
+        self.name = name 
+    def speak(self):
+        return "Some Sound"
+    
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+
+

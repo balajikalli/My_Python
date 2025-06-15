@@ -1,0 +1,1 @@
+select * FROM STUDENTT ORDER BY MARKS;

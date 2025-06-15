@@ -1,5 +1,5 @@
 # Type conversion
-# implicit - python converts one data type to other without user involvement, like if we add or multiply
+# implicit - python converts one data type to other without explicit commands involvement, like if we add or multiply
 a =5
 b = 1.44
 
